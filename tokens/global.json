@@ -1,0 +1,813 @@
+{
+  "color-white": {
+    "value": "#ffffff",
+    "type": "color",
+    "description": "global.colors.color-white #fff"
+  },
+  "color-black": {
+    "value": "#000000",
+    "type": "color",
+    "description": "global.colors.color-black #000"
+  },
+  "color-logo-primary": {
+    "value": "#808080",
+    "type": "color",
+    "description": "global.colors.color-logo-primary"
+  },
+  "color-gray-50": {
+    "value": "#f9f9f9",
+    "type": "color",
+    "description": "global.colors.color-gray-50"
+  },
+  "color-gray-60": {
+    "value": "#f2f2f3",
+    "type": "color",
+    "description": "global.colors.color-gray-60"
+  },
+  "color-gray-70": {
+    "value": "#e2e2e3",
+    "type": "color",
+    "description": "global.colors.color-gray-70"
+  },
+  "color-gray-80": {
+    "value": "#d2d2d3",
+    "type": "color",
+    "description": "global.colors.color-gray-80"
+  },
+  "color-gray-90": {
+    "value": "#b1b1b2",
+    "type": "color",
+    "description": "global.colors.color-gray-90"
+  },
+  "color-gray-100": {
+    "value": "#909091",
+    "type": "color",
+    "description": "global.colors.color-gray-100 (gray base)"
+  },
+  "color-gray-200": {
+    "value": "#757577",
+    "type": "color",
+    "description": "global.colors.color-gray-200"
+  },
+  "color-gray-300": {
+    "value": "#606061",
+    "type": "color",
+    "description": "global.colors.color-gray-300"
+  },
+  "color-gray-400": {
+    "value": "#414143",
+    "type": "color",
+    "description": "global.colors.color-gray-400"
+  },
+  "color-gray-500": {
+    "value": "#313132",
+    "type": "color",
+    "description": "global.colors.color-gray-500"
+  },
+  "color-gray-600": {
+    "value": "#1f1f20",
+    "type": "color",
+    "description": "global.colors.color-gray-600"
+  },
+  "color-yellow-50": {
+    "value": "#fffbe8",
+    "type": "color",
+    "description": "global.colors.color-yellow-50"
+  },
+  "color-yellow-60": {
+    "value": "#fff2ba",
+    "type": "color",
+    "description": "global.colors.color-yellow-60"
+  },
+  "color-yellow-70": {
+    "value": "#ffea8c",
+    "type": "color",
+    "description": "global.colors.color-yellow-70"
+  },
+  "color-yellow-80": {
+    "value": "#ffe25d",
+    "type": "color",
+    "description": "global.colors.color-yellow-80"
+  },
+  "color-yellow-90": {
+    "value": "#ffd92f",
+    "type": "color",
+    "description": "global.colors.color-yellow-90"
+  },
+  "color-yellow-100": {
+    "value": "#ffd518",
+    "type": "color",
+    "description": "global.colors.color-yellow-100 (yellow base)"
+  },
+  "color-yellow-200": {
+    "value": "#e6c016",
+    "type": "color",
+    "description": "global.colors.color-yellow-200"
+  },
+  "color-yellow-300": {
+    "value": "#ccaa13",
+    "type": "color",
+    "description": "global.colors.color-yellow-300"
+  },
+  "color-yellow-400": {
+    "value": "#b39511",
+    "type": "color",
+    "description": "global.colors.color-yellow-400"
+  },
+  "color-yellow-500": {
+    "value": "#806b0c",
+    "type": "color",
+    "description": "global.colors.color-yellow-500"
+  },
+  "color-yellow-600": {
+    "value": "#66550a",
+    "type": "color",
+    "description": "global.colors.color-yellow-600"
+  },
+  "color-orange-50": {
+    "value": "#fff4e6",
+    "type": "color",
+    "description": "global.colors.color-orange-50"
+  },
+  "color-orange-60": {
+    "value": "#ffddb5",
+    "type": "color",
+    "description": "global.colors.color-orange-60"
+  },
+  "color-orange-70": {
+    "value": "#fec684",
+    "type": "color",
+    "description": "global.colors.color-orange-70"
+  },
+  "color-orange-80": {
+    "value": "#feaf53",
+    "type": "color",
+    "description": "global.colors.color-orange-80"
+  },
+  "color-orange-90": {
+    "value": "#fe9822",
+    "type": "color",
+    "description": "global.colors.color-orange-90"
+  },
+  "color-orange-100": {
+    "value": "#fe8C09",
+    "type": "color",
+    "description": "global.colors.color-orange-100 (orange base)"
+  },
+  "color-orange-200": {
+    "value": "#e57e08",
+    "type": "color",
+    "description": "global.colors.color-orange-200"
+  },
+  "color-orange-300": {
+    "value": "#cb7007",
+    "type": "color",
+    "description": "global.colors.color-orange-300"
+  },
+  "color-orange-400": {
+    "value": "#b26206",
+    "type": "color",
+    "description": "global.colors.color-orange-400"
+  },
+  "color-orange-500": {
+    "value": "#7f4605",
+    "type": "color",
+    "description": "global.colors.color-orange-500"
+  },
+  "color-orange-600": {
+    "value": "#663804",
+    "type": "color",
+    "description": "global.colors.color-orange-600"
+  },
+  "color-red-50": {
+    "value": "#fce9e9",
+    "type": "color",
+    "description": "global.colors.color-red-50"
+  },
+  "color-red-60": {
+    "value": "#f5bcbc",
+    "type": "color",
+    "description": "global.colors.color-red-60"
+  },
+  "color-red-70": {
+    "value": "#ef8f8f",
+    "type": "color",
+    "description": "global.colors.color-red-70"
+  },
+  "color-red-80": {
+    "value": "#e96262",
+    "type": "color",
+    "description": "global.colors.color-red-80"
+  },
+  "color-red-90": {
+    "value": "#e53f3f",
+    "type": "color",
+    "description": "global.colors.color-red-90"
+  },
+  "color-red-100": {
+    "value": "#df1e1e",
+    "type": "color",
+    "description": "global.colors.color-red-100 (red base)"
+  },
+  "color-red-200": {
+    "value": "#c91b1b",
+    "type": "color",
+    "description": "global.colors.color-red-200"
+  },
+  "color-red-300": {
+    "value": "#b21818",
+    "type": "color",
+    "description": "global.colors.color-red-300"
+  },
+  "color-red-400": {
+    "value": "#9c1515",
+    "type": "color",
+    "description": "global.colors.color-red-400"
+  },
+  "color-red-500": {
+    "value": "#700f0f",
+    "type": "color",
+    "description": "global.colors.color-red-500"
+  },
+  "color-red-600": {
+    "value": "#590c0c",
+    "type": "color",
+    "description": "global.colors.color-red-600"
+  },
+  "color-blue-50": {
+    "value": "#e0f1ff",
+    "type": "color",
+    "description": "global.colors.color-blue-50"
+  },
+  "color-blue-60": {
+    "value": "#add2ef",
+    "type": "color",
+    "description": "global.colors.color-blue-60"
+  },
+  "color-blue-70": {
+    "value": "#87bae3",
+    "type": "color",
+    "description": "global.colors.color-blue-70"
+  },
+  "color-blue-80": {
+    "value": "#589dd4",
+    "type": "color",
+    "description": "global.colors.color-blue-80"
+  },
+  "color-blue-90": {
+    "value": "#3587c9",
+    "type": "color",
+    "description": "global.colors.color-blue-90"
+  },
+  "color-blue-100": {
+    "value": "#1875c0",
+    "type": "color",
+    "description": "global.colors.color-blue-100 (blue base)"
+  },
+  "color-blue-200": {
+    "value": "#1566a7",
+    "type": "color",
+    "description": "global.colors.color-blue-200"
+  },
+  "color-blue-300": {
+    "value": "#115388",
+    "type": "color",
+    "description": "global.colors.color-blue-300"
+  },
+  "color-blue-400": {
+    "value": "#0f4672",
+    "type": "color",
+    "description": "global.colors.color-blue-400"
+  },
+  "color-blue-500": {
+    "value": "#0c3557",
+    "type": "color",
+    "description": "global.colors.color-blue-500"
+  },
+  "color-blue-600": {
+    "value": "#092943",
+    "type": "color",
+    "description": "global.colors.color-blue-600"
+  },
+  "color-pink-50": {
+    "value": "#fbeaf4",
+    "type": "color",
+    "description": "global.colors.color-pink-50"
+  },
+  "color-pink-60": {
+    "value": "#f3bfde",
+    "type": "color",
+    "description": "global.colors.color-pink-60"
+  },
+  "color-pink-70": {
+    "value": "#ec94c8",
+    "type": "color",
+    "description": "global.colors.color-pink-70"
+  },
+  "color-pink-80": {
+    "value": "#e469b2",
+    "type": "color",
+    "description": "global.colors.color-pink-80"
+  },
+  "color-pink-90": {
+    "value": "#dc3e9c",
+    "type": "color",
+    "description": "global.colors.color-pink-90"
+  },
+  "color-pink-100": {
+    "value": "#d82991",
+    "type": "color",
+    "description": "global.colors.color-pink-100 (pink base)"
+  },
+  "color-pink-200": {
+    "value": "#c22583",
+    "type": "color",
+    "description": "global.colors.color-pink-200"
+  },
+  "color-pink-300": {
+    "value": "#ad2174",
+    "type": "color",
+    "description": "global.colors.color-pink-300"
+  },
+  "color-pink-400": {
+    "value": "#971d66",
+    "type": "color",
+    "description": "global.colors.color-pink-400"
+  },
+  "color-pink-500": {
+    "value": "#6c1549",
+    "type": "color",
+    "description": "global.colors.color-pink-500"
+  },
+  "color-pink-600": {
+    "value": "#56103a",
+    "type": "color",
+    "description": "global.colors.color-pink-600"
+  },
+  "color-purple-50": {
+    "value": "#f0e9fa",
+    "type": "color",
+    "description": "global.colors.color-purple-50"
+  },
+  "color-purple-60": {
+    "value": "#d2bcf0",
+    "type": "color",
+    "description": "global.colors.color-purple-60"
+  },
+  "color-purple-70": {
+    "value": "#b48fe6",
+    "type": "color",
+    "description": "global.colors.color-purple-70"
+  },
+  "color-purple-80": {
+    "value": "#9662db",
+    "type": "color",
+    "description": "global.colors.color-purple-80"
+  },
+  "color-purple-90": {
+    "value": "#7835d1",
+    "type": "color",
+    "description": "global.colors.color-purple-90"
+  },
+  "color-purple-100": {
+    "value": "#691ecc",
+    "type": "color",
+    "description": "global.colors.color-purple-100 (purple base)"
+  },
+  "color-purple-200": {
+    "value": "#5f1bb8",
+    "type": "color",
+    "description": "global.colors.color-purple-200"
+  },
+  "color-purple-300": {
+    "value": "#5418a3",
+    "type": "color",
+    "description": "global.colors.color-purple-300"
+  },
+  "color-purple-400": {
+    "value": "#4a158f",
+    "type": "color",
+    "description": "global.colors.color-purple-400"
+  },
+  "color-purple-500": {
+    "value": "#350f66",
+    "type": "color",
+    "description": "global.colors.color-purple-500"
+  },
+  "color-purple-600": {
+    "value": "#2a0c52",
+    "type": "color",
+    "description": "global.colors.color-purple-600"
+  },
+  "color-limegreen-50": {
+    "value": "#e9faf9",
+    "type": "color",
+    "description": "global.colors.color-limegreen-50"
+  },
+  "color-limegreen-60": {
+    "value": "#bcefec",
+    "type": "color",
+    "description": "global.colors.color-limegreen-60"
+  },
+  "color-limegreen-70": {
+    "value": "#8fe5e0",
+    "type": "color",
+    "description": "global.colors.color-limegreen-70"
+  },
+  "color-limegreen-80": {
+    "value": "#62dbd3",
+    "type": "color",
+    "description": "global.colors.color-limegreen-80"
+  },
+  "color-limegreen-90": {
+    "value": "#35d0C6",
+    "type": "color",
+    "description": "global.colors.color-limegreen-90"
+  },
+  "color-limegreen-100": {
+    "value": "#1fcbc0",
+    "type": "color",
+    "description": "global.colors.color-limegreen-100 (limegreen base)"
+  },
+  "color-limegreen-200": {
+    "value": "#1cb7ad",
+    "type": "color",
+    "description": "global.colors.color-limegreen-200"
+  },
+  "color-limegreen-300": {
+    "value": "#19a29a",
+    "type": "color",
+    "description": "global.colors.color-limegreen-300"
+  },
+  "color-limegreen-400": {
+    "value": "#168e86",
+    "type": "color",
+    "description": "global.colors.color-limegreen-400"
+  },
+  "color-limegreen-500": {
+    "value": "#106660",
+    "type": "color",
+    "description": "global.colors.color-limegreen-500"
+  },
+  "color-limegreen-600": {
+    "value": "#0c514d",
+    "type": "color",
+    "description": "global.colors.color-limegreen-600"
+  },
+  "color-green-50": {
+    "value": "#e6f2ee",
+    "type": "color",
+    "description": "global.colors.color-green-50"
+  },
+  "color-green-60": {
+    "value": "#b3d7cb",
+    "type": "color",
+    "description": "global.colors.color-green-60"
+  },
+  "color-green-70": {
+    "value": "#80bda8",
+    "type": "color",
+    "description": "global.colors.color-green-70"
+  },
+  "color-green-80": {
+    "value": "#4da285",
+    "type": "color",
+    "description": "global.colors.color-green-80"
+  },
+  "color-green-90": {
+    "value": "#1a8762",
+    "type": "color",
+    "description": "global.colors.color-green-90"
+  },
+  "color-green-100": {
+    "value": "#007a51",
+    "type": "color",
+    "description": "global.colors.color-green-100 (green base)"
+  },
+  "color-green-200": {
+    "value": "#006e49",
+    "type": "color",
+    "description": "global.colors.color-green-200"
+  },
+  "color-green-300": {
+    "value": "#006241",
+    "type": "color",
+    "description": "global.colors.color-green-300"
+  },
+  "color-green-400": {
+    "value": "#005539",
+    "type": "color",
+    "description": "global.colors.color-green-400"
+  },
+  "color-green-500": {
+    "value": "#003d29",
+    "type": "color",
+    "description": "global.colors.color-green-500"
+  },
+  "color-green-600": {
+    "value": "#003120",
+    "type": "color",
+    "description": "global.colors.color-green-600"
+  },
+  "color-brown-50": {
+    "value": "#f2eee9",
+    "type": "color",
+    "description": "global.colors.color-brown-50"
+  },
+  "color-brown-60": {
+    "value": "#d8cbbe",
+    "type": "color",
+    "description": "global.colors.color-brown-60"
+  },
+  "color-brown-70": {
+    "value": "#bea893",
+    "type": "color",
+    "description": "global.colors.color-brown-70"
+  },
+  "color-brown-80": {
+    "value": "#a48567",
+    "type": "color",
+    "description": "global.colors.color-brown-80"
+  },
+  "color-brown-90": {
+    "value": "#8a623c",
+    "type": "color",
+    "description": "global.colors.color-brown-90"
+  },
+  "color-brown-100": {
+    "value": "#7d5026",
+    "type": "color",
+    "description": "global.colors.color-brown-100 (brown base)"
+  },
+  "color-brown-200": {
+    "value": "#714822",
+    "type": "color",
+    "description": "global.colors.color-brown-200"
+  },
+  "color-brown-300": {
+    "value": "#64401e",
+    "type": "color",
+    "description": "global.colors.color-brown-300"
+  },
+  "color-brown-400": {
+    "value": "#58381b",
+    "type": "color",
+    "description": "global.colors.color-brown-400"
+  },
+  "color-brown-500": {
+    "value": "#3f2813",
+    "type": "color",
+    "description": "global.colors.color-brown-500"
+  },
+  "color-brown-600": {
+    "value": "#32200f",
+    "type": "color",
+    "description": "global.colors.color-brown-600"
+  },
+  "font-size-0625": {
+    "value": "10px",
+    "type": "fontSizes",
+    "description": "global.font-size 0.625rem（10px相当）"
+  },
+  "font-size-0750": {
+    "value": "12px",
+    "type": "fontSizes",
+    "description": "global.font-size 0.75rem（12px相当）"
+  },
+  "font-size-0875": {
+    "value": "14px",
+    "type": "fontSizes",
+    "description": "global.font-size 0.875rem（14px相当）"
+  },
+  "font-size-base": {
+    "value": "16px",
+    "type": "fontSizes",
+    "description": "global.font-size 1rem（16px相当・base）"
+  },
+  "font-size-1125": {
+    "value": "18px",
+    "type": "fontSizes",
+    "description": "global.font-size 1.125rem（18px相当）"
+  },
+  "font-size-1250": {
+    "value": "20px",
+    "type": "fontSizes",
+    "description": "global.font-size 1.25rem（20px相当）"
+  },
+  "font-size-1375": {
+    "value": "22px",
+    "type": "fontSizes",
+    "description": "global.font-size 1.375rem（22px相当）"
+  },
+  "font-size-1500": {
+    "value": "24px",
+    "type": "fontSizes",
+    "description": "global.font-size 1.5rem （24px相当）"
+  },
+  "font-size-1625": {
+    "value": "26px",
+    "type": "fontSizes",
+    "description": "global.font-size 1.625rem （26px相当）"
+  },
+  "font-size-1750": {
+    "value": "28px",
+    "type": "fontSizes",
+    "description": "global.font-size 1.75rem （28px相当）"
+  },
+  "font-size-1875": {
+    "value": "30px",
+    "type": "fontSizes",
+    "description": "global.font-size 1.875rem （30px相当）"
+  },
+  "font-size-2000": {
+    "value": "32px",
+    "type": "fontSizes",
+    "description": "global.font-size 2rem （32px相当）"
+  },
+  "font-size-2125": {
+    "value": "34px",
+    "type": "fontSizes",
+    "description": "global.font-size 2.125rem （34px相当）"
+  },
+  "font-size-2250": {
+    "value": "36px",
+    "type": "fontSizes",
+    "description": "global.font-size 2.25rem（36px相当）"
+  },
+  "line-height-100": {
+    "value": "100%",
+    "type": "lineHeights",
+    "description": "global.line-height:1(100%)"
+  },
+  "line-height-125": {
+    "value": "{line-height-100} * 1.25",
+    "type": "lineHeights",
+    "description": "global.line-height:1.25(125%)"
+  },
+  "line-height-150": {
+    "value": "{line-height-100} * 1.5",
+    "type": "lineHeights",
+    "description": "global.line-height:1.5(150%)"
+  },
+  "line-height-175": {
+    "value": "{line-height-100} * 1.75",
+    "type": "lineHeights",
+    "description": "global.line-height:1.75(175%)"
+  },
+  "border-radius-0": {
+    "value": "0",
+    "type": "borderRadius",
+    "description": "global.border-radius 0px"
+  },
+  "border-radius-4": {
+    "value": "4",
+    "type": "borderRadius",
+    "description": "global.border-radius 4px"
+  },
+  "border-radius-8": {
+    "value": "8",
+    "type": "borderRadius",
+    "description": "global.border-radius 8px"
+  },
+  "border-radius-10000": {
+    "value": "10000",
+    "type": "borderRadius",
+    "description": "global.border-radius10000"
+  },
+  "spacing-4": {
+    "value": "4px",
+    "type": "spacing",
+    "description": "spacing 4px"
+  },
+  "spacing-8": {
+    "value": "8px",
+    "type": "spacing",
+    "description": "spacing 8px"
+  },
+  "spacing-12": {
+    "value": "12px",
+    "type": "spacing",
+    "description": "spacing 12px"
+  },
+  "spacing-16": {
+    "value": "16px",
+    "type": "spacing",
+    "description": "spacing 16px"
+  },
+  "spacing-20": {
+    "value": "20px",
+    "type": "spacing",
+    "description": "spacing 20px"
+  },
+  "spacing-24": {
+    "value": "24px",
+    "type": "spacing",
+    "description": "spacing 24px"
+  },
+  "spacing-28": {
+    "value": "28px",
+    "type": "spacing",
+    "description": "spacing 28px"
+  },
+  "spacing-32": {
+    "value": "32px",
+    "type": "spacing",
+    "description": "spacing 32px"
+  },
+  "spacing-36": {
+    "value": "36px",
+    "type": "spacing",
+    "description": "spacing 36px"
+  },
+  "spacing-40": {
+    "value": "40px",
+    "type": "spacing",
+    "description": "spacing 40px"
+  },
+  "spacing-44": {
+    "value": "44px",
+    "type": "spacing",
+    "description": "spacing 44px"
+  },
+  "spacing-48": {
+    "value": "48px",
+    "type": "spacing",
+    "description": "spacing 48px"
+  },
+  "spacing-52": {
+    "value": "52px",
+    "type": "spacing",
+    "description": "spacing 52px"
+  },
+  "spacing-56": {
+    "value": "56px",
+    "type": "spacing",
+    "description": "spacing 56px"
+  },
+  "spacing-60": {
+    "value": "60px",
+    "type": "spacing",
+    "description": "spacing 60px"
+  },
+  "breakpoint-979": {
+    "value": "979px",
+    "type": "other",
+    "description": "breakpoint_max-width: 979px; デザインデータには使用せず"
+  },
+  "opacity-03": {
+    "value": "0.3",
+    "type": "opacity",
+    "description": "透明度 0.3"
+  },
+  "opacity-05": {
+    "value": "0.5",
+    "type": "opacity",
+    "description": "透明度 0.5"
+  },
+  "opacity-075": {
+    "value": "0.75",
+    "type": "opacity",
+    "description": "透明度 0.75"
+  },
+  "opacity-08": {
+    "value": "0.8",
+    "type": "opacity",
+    "description": "透明度 0.8"
+  },
+  "boxshadow-100": {
+    "value": {
+      "x": "0",
+      "y": "3",
+      "blur": "8",
+      "spread": "0",
+      "color": "rgba(0,0,0,0.16)",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow",
+    "description": "ボックス背景のドロップシャドウ\nX:0 Y:3 Blur:8 Spread:0 rbga(0,0,0,0.16)"
+  },
+  "boxshadow-border-80": {
+    "value": {
+      "x": "0",
+      "y": "0",
+      "blur": "0",
+      "spread": "1",
+      "color": "{color-gray-80}",
+      "type": "innerShadow"
+    },
+    "type": "boxShadow",
+    "description": "シャドウでボーダーを表現する用\nX:0 Y:0 Blur:0 Spread:1 color-gray-80"
+  },
+  "boxshadow-border-300": {
+    "value": {
+      "x": "0",
+      "y": "0",
+      "blur": "0",
+      "spread": "1",
+      "color": "{color-gray-300}",
+      "type": "innerShadow"
+    },
+    "type": "boxShadow",
+    "description": "シャドウでボーダーを表現する用\nX:0 Y:0 Blur:0 Spread:1 color-gray-300"
+  }
+}

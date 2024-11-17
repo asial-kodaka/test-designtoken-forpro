@@ -1,0 +1,832 @@
+{
+  "light": {
+    "color-base-primary": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "Web全体のデフォルトの背景色"
+    },
+    "color-base-secondary": {
+      "value": "{color-gray-60}",
+      "type": "color",
+      "description": "Web全体の2番目の背景色"
+    },
+    "color-base-tertiary": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "Web全体の3番目の背景色"
+    },
+    "color-overlay": {
+      "value": "{color-black}",
+      "type": "color",
+      "description": "モーダル状態に入ったときに表示されるマスク オーバーレイの色 ＊opacityはopacity-modal-bgと合わせて使用する"
+    },
+    "color-surface-primary": {
+      "value": "{color-gray-70}",
+      "type": "color",
+      "description": "主要なUI・またはコンテナに使用されるデフォルトの背景色"
+    },
+    "color-surface-secondary": {
+      "value": "{color-gray-60}",
+      "type": "color",
+      "description": "主要なUI・またはコンテナに使用される2番目の背景色"
+    },
+    "color-surface-tertiary": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "主要なUI・またはコンテナに使用される3番目の背景色"
+    },
+    "color-surface-modal": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "モーダルやポップアップなど、画面上で一時的に情報を表示するためのUI要素の背景色"
+    },
+    "color-surface-card": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "カードUIの背景色"
+    },
+    "color-surface-tableheader": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "テーブル・または表のヘッダーセクションの背景色"
+    },
+    "color-surface-player": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "ビデオプレーヤー・その他のメディア再生UIの背景色"
+    },
+    "color-surface-oembed": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "埋め込みコンテンツ（oEmbed）の背景色"
+    },
+    "color-surface-current": {
+      "value": "{color-blue-50}",
+      "type": "color",
+      "description": "主要なUI・またはコンテナでcurrent（現在）時に使用される背景色"
+    },
+    "color-logo": {
+      "value": "{color-logo-primary}",
+      "type": "color",
+      "description": "NHKロゴに使用される主要な色"
+    },
+    "color-info-alert": {
+      "value": "{color-red-200}",
+      "type": "color",
+      "description": "情報提供のためのアラート・通知に使用される色"
+    },
+    "color-form-background": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "フォームや入力フィールドなど、情報を入力するUI要素の背景色"
+    },
+    "color-form-background-disabled": {
+      "value": "{color-gray-70}",
+      "type": "color",
+      "description": "フォームで非選択状態（disabled）の背景に使用される色"
+    },
+    "color-form-focus": {
+      "value": "{color-blue-200}",
+      "type": "color",
+      "description": "フォーム要素がアクティブまたは選択された際に、フォーカス状態を示す色\n※2024/04の段階で、新標準はブラウザ標準色を採用中"
+    },
+    "color-selectcontrols-checked": {
+      "value": "{color-blue-200}",
+      "type": "color",
+      "description": "SelectControlsで選択状態（チェック）に使用される色"
+    },
+    "color-form-checked": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "フォームでのチェックボックスで選択状態（チェック）に使用される色"
+    },
+    "color-form-checked-disabled": {
+      "value": "{color-gray-100}",
+      "type": "color",
+      "description": "フォームで非選択状態（disabled）のチェックの色に使用される色"
+    },
+    "color-button-background-primary-default": {
+      "value": "{color-gray-60}",
+      "type": "color",
+      "description": "主要なアクションボタンのデフォルトの背景色"
+    },
+    "color-button-background-primary-current": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "主要なアクションボタンが、現在アクティブまたは操作中に使用される背景色"
+    },
+    "color-button-background-secondary-default": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "アクションボタンの2番目の背景色"
+    },
+    "color-button-background-tertiary-default": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "アクションボタンの3番目の背景色"
+    },
+    "color-buttonsquare-default": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "スクエアボタンのデフォルト時に使用する色"
+    },
+    "color-buttonsquare-hover": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "スクエアボタンのホバー時に使用する色"
+    },
+    "color-buttonsquare-active": {
+      "value": "{color-black}",
+      "type": "color",
+      "description": "スクエアボタンのアクティブ時に使用する色"
+    },
+    "color-buttonsquare-alert-default": {
+      "value": "{color-red-200}",
+      "type": "color",
+      "description": "スクエアボタン アラートでデフォルト時に使用する色"
+    },
+    "color-buttonsquare-alert-hover": {
+      "value": "{color-red-300}",
+      "type": "color",
+      "description": "スクエアボタン アラートでホバー時に使用する色"
+    },
+    "color-buttonsquare-alert-active": {
+      "value": "{color-red-300}",
+      "type": "color",
+      "description": "スクエアボタン アラートでアクティブ時に使用する色"
+    },
+    "color-buttonsquare-focus-outline": {
+      "value": "{color-black}",
+      "type": "color",
+      "description": "スクエアボタンでフォーカス状態をボーダーで示す外側の罫線の色"
+    },
+    "color-buttonsquare-focus-inline": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "スクエアボタンでフォーカス状態をボーダーで示す内側の罫線の色"
+    },
+    "color-buttonsquare-border-background-default": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "スクエアボタンで線ボタンのデフォルト時の背景に使用する色"
+    },
+    "color-buttonsquare-border-background-hover": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "スクエアボタンで線ボタンのホバー時の背景に使用する色"
+    },
+    "color-buttonsquare-border-background-active": {
+      "value": "{color-gray-60}",
+      "type": "color",
+      "description": "スクエアボタンで線ボタンのアクティブ時の背景に使用する色"
+    },
+    "color-label-background-postponed": {
+      "value": "{color-gray-70}",
+      "type": "color",
+      "description": "Object ラベルマーカー（延期）ステータス　背景色"
+    },
+    "color-label-background-cancelled": {
+      "value": "{color-gray-200}",
+      "type": "color",
+      "description": "ラベル（キャンセル）ステータスの背景色"
+    },
+    "color-label-background-changed": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "ラベル（変更）ステータスの背景色"
+    },
+    "color-breakingnews-background": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "速報ニュースUIの背景に使われる色"
+    },
+    "color-icon-primary": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "アイコンに使用されるデフォルトの色"
+    },
+    "color-icon-secondary": {
+      "value": "{color-gray-200}",
+      "type": "color",
+      "description": "アイコンに使用される2番目の色"
+    },
+    "color-icon-layer": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "背景色が濃いオブジェクトの上にレイヤードされる（重ね合わせられる）アイコンの色"
+    },
+    "color-icon-onfill-primary": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "塗りの要素の上に乗るアイコンの色"
+    },
+    "color-icon-onfill-secondary": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "塗りの要素の上に乗る2番目のアイコンの色"
+    },
+    "color-icon-overlay": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "オーバーレイの上で使用されるアイコンの色"
+    },
+    "color-toggleswitch-control-default": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "ToggleSwitchのコントロール（デフォルト）で使用される色"
+    },
+    "color-toggleswitch-control-disabled": {
+      "value": "{color-gray-70}",
+      "type": "color",
+      "description": "ToggleSwitchのコントロール（非アクティブ）で使用される色"
+    },
+    "color-toggleswitch-background-default": {
+      "value": "{color-gray-200}",
+      "type": "color",
+      "description": "ToggleSwitchの背景色（デフォルト）で使用される色"
+    },
+    "color-toggleswitch-background-checked": {
+      "value": "{color-blue-200}",
+      "type": "color",
+      "description": "ToggleSwitchの背景色（デフォルト）でチェック時に使用される色"
+    },
+    "color-stepper-default": {
+      "value": "{color-blue-200}",
+      "type": "color",
+      "description": "Stepperのデフォルトで使用される色"
+    },
+    "color-stepper-current": {
+      "value": "{color-blue-200}",
+      "type": "color",
+      "description": "Stepperの現在時に使用される色"
+    },
+    "color-stepper-checked": {
+      "value": "{color-gray-70}",
+      "type": "color",
+      "description": "Stepperのチェック時に使用される色"
+    },
+    "color-clipcardlist-active": {
+      "value": "{color-blue-200}",
+      "type": "color",
+      "description": "clipcardlistでアクティブ時に使用される色"
+    },
+    "color-clipcardlist-iconbutton": {
+      "value": "{color-black}",
+      "type": "color",
+      "description": "clipcardlistのiconbuttonに使用される色 ＊opacityはopacity-modal-bgと合わせて使用する"
+    },
+    "color-text-primary": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "テキストコンテンツに使用されるデフォルトの文字色"
+    },
+    "color-text-secondary": {
+      "value": "{color-gray-400}",
+      "type": "color",
+      "description": "テキストコンテンツに使用される2番目の文字色"
+    },
+    "color-text-layer": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "背景色が濃いオブジェクトの上にレイヤードされる（重ね合わせられる）文字色"
+    },
+    "color-text-overlay": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "モーダル状態に入ったときに表示されるマスク オーバーレイの上のテキストコンテンツで使用される文字色"
+    },
+    "color-text-onfill-primary": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "塗りの要素の上に乗る文字色"
+    },
+    "color-text-onfill-secondary": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "塗りの要素の上に乗る2番目の文字色"
+    },
+    "color-text-large": {
+      "value": "{color-gray-200}",
+      "type": "color",
+      "description": "large size（18px）以上で使用できる文字色"
+    },
+    "color-text-gnavi": {
+      "value": "{color-gray-200}",
+      "type": "color",
+      "description": "グローバルナビゲーションで使用される文字色"
+    },
+    "color-text-gfooter": {
+      "value": "{color-gray-300}",
+      "type": "color",
+      "description": "グローバルフッターで使用される文字色"
+    },
+    "color-text-placeholder": {
+      "value": "{color-gray-200}",
+      "type": "color",
+      "description": "テキストエリアなどのフォーム要素内に表示されるプレースホルダーテキスト色"
+    },
+    "color-text-heroheader": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "ヒーローヘッダーで画像の上にレイヤードされる（重ね合わせられる）文字色"
+    },
+    "color-text-searchbutton": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "検索ボタン上の文字色"
+    },
+    "color-text-label-postponed": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "ラベル（延期）ステータス 文字色"
+    },
+    "color-text-label-cancelled": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "ラベル（キャンセル）ステータス 文字色"
+    },
+    "color-text-label-changed": {
+      "value": "{color-red-200}",
+      "type": "color",
+      "description": "ラベル（変更）ステータス　文字色"
+    },
+    "color-textinput-error": {
+      "value": "{color-red-200}",
+      "type": "color",
+      "description": "textinputでエラー時に使用される文字色"
+    },
+    "color-border": {
+      "value": "{color-gray-80}",
+      "type": "color",
+      "description": "ボックス、カード、ボタンなどのアウトラインに使用される線の色"
+    },
+    "color-border-divider": {
+      "value": "{color-gray-70}",
+      "type": "color",
+      "description": "UI要素やレイアウトコンポーネント間の境界線の色"
+    },
+    "color-border-frame": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "モーダルやポップアップなどの境界線で使用。ダークモード時にコントラストをつける"
+    },
+    "color-border-form": {
+      "value": "{color-gray-100}",
+      "type": "color",
+      "description": "フォーム要素の境界線の色"
+    },
+    "shadow-image-border": {
+      "value": "{boxshadow-border-80}",
+      "type": "boxShadow",
+      "description": "画像の背景に罫線をつける場合のトークン"
+    }
+  },
+  "other": {
+    "light": {
+      "color-series": {
+        "value": "#804000",
+        "type": "color",
+        "description": "使用注意：クロ現のシリーズカラーをサンプルとして定義。主に新標準で使用"
+      },
+      "color-qicon-background": {
+        "value": "{color-gray-70}",
+        "type": "color",
+        "description": "使用注意：デザインカンプ上でライト・ダークモードを確認するためのカラートークン\n実装上は不要なもの。"
+      },
+      "color-xicon-logo": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "使用注意：デザインカンプ上で「X」アイコンロゴ用にライト・ダークモードを確認するためのカラートークン\n実装上は不要なもの。"
+      },
+      "color-xicon-background": {
+        "value": "#000000",
+        "type": "color",
+        "description": "使用注意：デザインカンプ上で「X」アイコン背景用にライト・ダークモードを確認するためのカラートークン\n実装上は不要なもの。"
+      },
+      "color-scroll": {
+        "value": "#7F7F7F",
+        "type": "color",
+        "description": "使用注意：デザインカンプ上でスクロールバーのライト・ダークモードを確認するためのカラートークン\n実装上は不要なもの。"
+      },
+      "color-scroll-background": {
+        "value": "#F0F0F0",
+        "type": "color",
+        "description": "使用注意：デザインカンプ上でスクロールバー背景のライト・ダークモードを確認するためのカラートークン\n実装上は不要なもの。"
+      }
+    },
+    "dark": {
+      "color-series": {
+        "value": "#935d26",
+        "type": "color",
+        "description": "使用注意：クロ現のシリーズカラーをサンプルとして定義。主に新標準で使用"
+      },
+      "color-qicon-background": {
+        "value": "{color-gray-500}",
+        "type": "color",
+        "description": "使用注意：デザインカンプ上でライト・ダークモードを確認するためのカラートークン\n実装上は不要なもの。"
+      },
+      "color-xicon-logo": {
+        "value": "#000000",
+        "type": "color",
+        "description": "使用注意：デザインカンプ上でライト・ダークモードを確認するためのカラートークン\n実装上は不要なもの。"
+      },
+      "color-xicon-background": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "使用注意：デザインカンプ上でライト・ダークモードを確認するためのカラートークン\n実装上は不要なもの。"
+      },
+      "color-scroll": {
+        "value": "#999999",
+        "type": "color",
+        "description": "使用注意：デザインカンプ上でスクロールバーのライト・ダークモードを確認するためのカラートークン\n実装上は不要なもの。"
+      },
+      "color-scroll-background": {
+        "value": "#2A2A2B",
+        "type": "color",
+        "description": "使用注意：デザインカンプ上でスクロールバーの背景ライト・ダークモードを確認するためのカラートークン\n実装上は不要なもの。"
+      }
+    }
+  },
+  "dark": {
+    "color-base-primary": {
+      "value": "{color-black}",
+      "type": "color",
+      "description": "ダークモード：Web全体のデフォルトの背景色"
+    },
+    "color-base-secondary": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "ダークモード：Web全体の2番目の背景色"
+    },
+    "color-base-tertiary": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "ダークモード：Web全体の3番目の背景色"
+    },
+    "color-overlay": {
+      "value": "{color-black}",
+      "type": "color",
+      "description": "ダークモード：モーダル状態に入ったときに表示されるマスク オーバーレイの色 ＊opacityはopacity-modal-bgと合わせて使用する"
+    },
+    "color-surface-primary": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "ダークモード：主要なUI・またはコンテナに使用されるデフォルトの背景色"
+    },
+    "color-surface-secondary": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "ダークモード：主要なUI・またはコンテナに使用される2番目の背景色"
+    },
+    "color-surface-tertiary": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "ダークモード：主要なUI・またはコンテナに使用される3番目の背景色"
+    },
+    "color-surface-modal": {
+      "value": "{color-black}",
+      "type": "color",
+      "description": "ダークモード：モーダルやポップアップなど、画面上で一時的に情報を表示するためのUI要素の背景色"
+    },
+    "color-surface-card": {
+      "value": "{color-black}",
+      "type": "color",
+      "description": "ダークモード：カードUIの背景色"
+    },
+    "color-surface-tableheader": {
+      "value": "{color-gray-60}",
+      "type": "color",
+      "description": "ダークモード：テーブル・または表のヘッダーセクションの背景色"
+    },
+    "color-surface-player": {
+      "value": "{color-black}",
+      "type": "color",
+      "description": "ダークモード：ビデオプレーヤー・その他のメディア再生UIの背景色"
+    },
+    "color-surface-oembed": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "ダークモード：埋め込みコンテンツ（oEmbed）の背景色"
+    },
+    "color-surface-current": {
+      "value": "{color-blue-600}",
+      "type": "color",
+      "description": "ダークモード：主要なUI・またはコンテナでcurrent（現在）時に使用される背景色"
+    },
+    "color-logo": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "ダークモード：NHKロゴに使用される主要な色"
+    },
+    "color-info-alert": {
+      "value": "{color-red-100}",
+      "type": "color",
+      "description": "ダークモード：情報提供のためのアラート・通知に使用される色"
+    },
+    "color-form-background": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "ダークモード：フォームや入力フィールドなど、情報を入力するUI要素の背景色"
+    },
+    "color-form-background-disabled": {
+      "value": "{color-gray-100}",
+      "type": "color",
+      "description": "ダークモード：フォームで非選択状態（disabled）の背景に使用される色"
+    },
+    "color-form-focus": {
+      "value": "{color-blue-100}",
+      "type": "color",
+      "description": "ダークモード：フォーム要素がアクティブまたは選択された際に、フォーカス状態を示す色\n※2024/04の段階で、新標準はブラウザ標準色を採用中"
+    },
+    "color-selectcontrols-checked": {
+      "value": "{color-blue-90}",
+      "type": "color",
+      "description": "ダークモード：SelectControlsで選択状態（チェック）に使用される色"
+    },
+    "color-form-checked": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "ダークモード：フォームでのチェックボックスで選択状態（チェック）に使用される色"
+    },
+    "color-form-checked-disabled": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "ダークモード：フォームで非選択状態（disabled）のチェックの色に使用される色"
+    },
+    "color-button-background-primary-default": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "ダークモード：主要なアクションボタンのデフォルトの背景色"
+    },
+    "color-button-background-primary-current": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "ダークモード：主要なアクションボタンが、現在アクティブまたは操作中に使用される背景色"
+    },
+    "color-button-background-secondary-default": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "ダークモード：アクションボタンの2番目の背景色"
+    },
+    "color-button-background-tertiary-default": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "ダークモード：アクションボタンの3番目の背景色"
+    },
+    "color-buttonsquare-default": {
+      "value": "{color-gray-60}",
+      "type": "color",
+      "description": "ダークモード：スクエアボタンのデフォルト時に使用する色"
+    },
+    "color-buttonsquare-hover": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "ダークモード：スクエアボタンのホバー時に使用する色"
+    },
+    "color-buttonsquare-active": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "ダークモード：スクエアボタンのアクティブ時に使用する色"
+    },
+    "color-buttonsquare-alert-default": {
+      "value": "{color-red-200}",
+      "type": "color",
+      "description": "ダークモード：スクエアボタン アラートでデフォルト時に使用する色"
+    },
+    "color-buttonsquare-alert-hover": {
+      "value": "{color-red-300}",
+      "type": "color",
+      "description": "ダークモード：スクエアボタン アラートでホバー時に使用する色"
+    },
+    "color-buttonsquare-alert-active": {
+      "value": "{color-red-300}",
+      "type": "color",
+      "description": "ダークモード：スクエアボタン アラートでアクティブ時に使用する色"
+    },
+    "color-buttonsquare-focus-outline": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "ダークモード：スクエアボタンでフォーカス状態をボーダーで示す外側の罫線の色"
+    },
+    "color-buttonsquare-focus-inline": {
+      "value": "{color-black}",
+      "type": "color",
+      "description": "ダークモード：スクエアボタンでフォーカス状態をボーダーで示す内側の罫線の色"
+    },
+    "color-buttonsquare-border-background-default": {
+      "value": "{color-black}",
+      "type": "color",
+      "description": "ダークモード：スクエアボタンで線ボタンのデフォルト時の背景に使用する色"
+    },
+    "color-buttonsquare-border-background-hover": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "ダークモード：スクエアボタンで線ボタンのホバー時の背景に使用する色"
+    },
+    "color-buttonsquare-border-background-active": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "ダークモード：スクエアボタンで線ボタンのアクティブ時の背景に使用する色"
+    },
+    "color-label-background-postponed": {
+      "value": "{color-gray-70}",
+      "type": "color",
+      "description": "ダークモード：ラベル（延期）ステータスの背景色"
+    },
+    "color-label-background-cancelled": {
+      "value": "{color-gray-200}",
+      "type": "color",
+      "description": "ダークモード：ラベル（キャンセル）ステータスの背景色"
+    },
+    "color-label-background-changed": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "ダークモード：ラベル（変更）ステータスの背景色"
+    },
+    "color-breakingnews-background": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "速報ニュースUIの背景に使われる色"
+    },
+    "color-icon-primary": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "ダークモード：アイコンに使用されるデフォルトの色"
+    },
+    "color-icon-secondary": {
+      "value": "{color-gray-60}",
+      "type": "color",
+      "description": "ダークモード：アイコンに使用される2番目の色"
+    },
+    "color-icon-layer": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "ダークモード：背景色が濃いオブジェクトの上にレイヤードされる（重ね合わせられる）アイコンの色"
+    },
+    "color-icon-onfill-primary": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "ダークモード：塗りの要素の上に乗るアイコンの色"
+    },
+    "color-icon-onfill-secondary": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "ダークモード：塗りの要素の上に乗る2番目のアイコンの色"
+    },
+    "color-icon-overlay": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "ダークモード：オーバーレイの上で使用されるアイコンの色"
+    },
+    "color-toggleswitch-control-default": {
+      "value": "{color-gray-60}",
+      "type": "color",
+      "description": "ダークモード：ToggleSwitchのコントロール（デフォルト）で使用される色"
+    },
+    "color-toggleswitch-control-disabled": {
+      "value": "{color-gray-70}",
+      "type": "color",
+      "description": "ダークモード：ToggleSwitchのコントロール（非アクティブ）で使用される色"
+    },
+    "color-toggleswitch-background-default": {
+      "value": "{color-gray-300}",
+      "type": "color",
+      "description": "ダークモード：ToggleSwitchの背景色（デフォルト）で使用される色"
+    },
+    "color-toggleswitch-background-checked": {
+      "value": "{color-blue-100}",
+      "type": "color",
+      "description": "ダークモード：ToggleSwitchの背景色（デフォルト）でチェック時に使用される色"
+    },
+    "color-stepper-default": {
+      "value": "{color-blue-90}",
+      "type": "color",
+      "description": "ダークモード：Stepperのデフォルトで使用される色"
+    },
+    "color-stepper-current": {
+      "value": "{color-blue-200}",
+      "type": "color",
+      "description": "ダークモード：Stepperの現在時に使用される色"
+    },
+    "color-stepper-checked": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "ダークモード：Stepperのチェック時に使用される色"
+    },
+    "color-clipcardlist-active": {
+      "value": "{color-blue-100}",
+      "type": "color",
+      "description": "ダークモード：clipcardlistでアクティブ時に使用される色"
+    },
+    "color-clipcardlist-iconbutton": {
+      "value": "{color-gray-500}",
+      "type": "color",
+      "description": "ダークモード：clipcardlistのiconbuttonに使用される色 ＊opacityはopacity-modal-bgと合わせて使用する"
+    },
+    "color-text-primary": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "ダークモード：テキストコンテンツに使用されるデフォルトの文字色"
+    },
+    "color-text-secondary": {
+      "value": "{color-gray-70}",
+      "type": "color",
+      "description": "ダークモード：テキストコンテンツに使用される2番目の文字色"
+    },
+    "color-text-layer": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "ダークモード：背景色が濃いオブジェクトの上にレイヤードされる（重ね合わせられる）文字色"
+    },
+    "color-text-onfill-primary": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "ダークモード：塗りの要素の上に乗る文字色"
+    },
+    "color-text-onfill-secondary": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "ダークモード：塗りの要素の上に乗る2番目の文字色"
+    },
+    "color-text-large": {
+      "value": "{color-gray-100}",
+      "type": "color",
+      "description": "ダークモード：large size（18px）以上で使用できる文字色"
+    },
+    "color-text-overlay": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "ダークモード：モーダル状態に入ったときに表示されるマスク オーバーレイの上のテキストコンテンツで使用される文字色"
+    },
+    "color-text-gnavi": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "ダークモード：グローバルナビゲーションで使用される文字色"
+    },
+    "color-text-gfooter": {
+      "value": "{color-gray-70}",
+      "type": "color",
+      "description": "ダークモード：グローバルフッターで使用される文字色"
+    },
+    "color-text-placeholder": {
+      "value": "{color-gray-300}",
+      "type": "color",
+      "description": "ダークモード：テキストエリアなどのフォーム要素内に表示されるプレースホルダーテキスト色"
+    },
+    "color-text-heroheader": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "ダークモード：ヒーローヘッダーで画像の上にレイヤードされる（重ね合わせられる）文字色"
+    },
+    "color-text-searchbutton": {
+      "value": "{color-white}",
+      "type": "color",
+      "description": "ダークモード：検索ボタン上の文字色"
+    },
+    "color-text-label-postponed": {
+      "value": "{color-gray-600}",
+      "type": "color",
+      "description": "ダークモード：ラベル（延期）ステータス 文字色"
+    },
+    "color-text-label-cancelled": {
+      "value": "{color-gray-50}",
+      "type": "color",
+      "description": "ダークモード：ラベル（キャンセル）ステータス 文字色"
+    },
+    "color-text-label-changed": {
+      "value": "{color-red-100}",
+      "type": "color",
+      "description": "ダークモード：ラベル（変更）ステータス　文字色"
+    },
+    "color-textinput-error": {
+      "value": "{color-red-70}",
+      "type": "color",
+      "description": "ダークモード：textinputでエラー時に使用される文字色"
+    },
+    "color-border": {
+      "value": "{color-gray-300}",
+      "type": "color",
+      "description": "ダークモード：ボックス、カード、ボタンなどのアウトラインに使用される線の色"
+    },
+    "color-border-divider": {
+      "value": "{color-gray-400}",
+      "type": "color",
+      "description": "ダークモード：UI要素やレイアウトコンポーネント間の境界線の色"
+    },
+    "color-border-frame": {
+      "value": "{color-gray-300}",
+      "type": "color",
+      "description": "ダークモード：モーダルやポップアップなどの境界線で使用。ダークモード時にコントラストをつける"
+    },
+    "color-border-form": {
+      "value": "{color-gray-100}",
+      "type": "color",
+      "description": "フォーム要素の境界線の色"
+    },
+    "shadow-image-border": {
+      "value": "{boxshadow-border-300}",
+      "type": "boxShadow",
+      "description": "画像の背景に罫線をつける場合のトークン"
+    }
+  }
+}
